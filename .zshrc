@@ -16,9 +16,12 @@ source /home/linuxbrew/.linuxbrew/share/zsh-syntax-highlighting/zsh-syntax-highl
 
 # ---- ALIAS -----
 alias c="clear"
-alias g="git"
-alias st="explorer.exe"
 alias cat="bat --paging=never"
+alias clip="clip.exe"
+alias g="git"
+alias gfs="git fetch && git status"
+alias gs="git status"
+alias st="explorer.exe"
 alias v="nvim.exe"
 
 # ---- NAVIGATION -----
