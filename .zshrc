@@ -21,6 +21,10 @@ alias st="explorer.exe"
 alias cat="bat --paging=never"
 alias v="nvim.exe"
 
+# ---- NAVIGATION -----
+bindkey '^[[1;5D' backward-word  # Ctrl + Left Arrow
+bindkey '^[[1;5C' forward-word   # Ctrl + Right Arrow
+
 # ---- HISTORY -----
 HISTFILE=$HOME/.zhistory
 SAVEHIST=1000
