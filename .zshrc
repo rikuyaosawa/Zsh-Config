@@ -84,7 +84,3 @@ eval "$(zoxide init zsh)"
 
 # ---- Eza (better ls) -----
 alias ls="eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions"
-
-# ---- thefuck -----
-eval $(thefuck --alias)
-eval $(thefuck --alias fk)
